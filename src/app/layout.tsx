@@ -86,7 +86,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-canvas text-copy antialiased selection:bg-deep selection:text-bright">
         <Header />
-        <main className="relative pt-28">{children}</main>
+        <main className="relative pt-20">{children}</main>
         <Footer />
       </body>
     </html>
